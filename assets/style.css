@@ -1,0 +1,122 @@
+@font-face {
+    font-family: HelveticaNeue-Light;
+    src: url(./fonts/HelveticaNeue\ Light.ttf);
+}@font-face {
+    font-family: HelveticaNeue-regular;
+    src: url(./fonts/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family: HelveticaNeue-medium;
+    src: url(./fonts/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+    font-family: HelveticaNeue-Bold;
+    src: url(./fonts/Helvetica\ Neu\ Bold.ttf);
+}
+
+:root {
+    --clr-accent-400:#EE4967;
+    --clr-accent-300:#ED4866;
+    --clr-accent-200:#F4A2B1;
+    --clr-accent-100:#F6DEE2;
+
+    --clr-primary-400:#434343;
+    --clr-primary-100:#FFFDFD;
+
+
+
+    --ff-primary: HelveticaNeue-regular;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-Bold:700;
+
+    --fs-100:0.75rem; 
+    --fs-200:0.875rem; 
+    --fs-300:0.9375rem; 
+    --fs-400:1rem; 
+    --fs-500:1.125rem; 
+    --fs-600:1.25rem; 
+    --fs-700:1.5rem; 
+    --fs-800:1.75rem; 
+    --fs-900:2.5rem; 
+
+    --fs-body: var(--fs-500);
+    --fs-primary-heading: var(--fs-200);
+    --fs-secondary-heading: var(--fs-700);
+    --fs-button: var(--fs-100)
+}
+
+/* utility classes */
+.text-primary-400 {
+    color: var(--clr-primary-400)
+}
+.text-primary-100 {
+    color: var(--clr-primary-100)
+}
+
+.bg-accent-400 {
+    background-color: var(--clr-accent-400);
+}
+.bg-accent-300 {
+    background-color: var(--clr-accent-300);
+}
+.bg-accent-200 {
+    background-color: var(--clr-accent-200);
+}
+.bg-accent-100 {
+    background-color: var(--clr-neutral-100);
+}
+
+
+.fw-light{
+    font-weight: var(--fw-light);
+}
+.fw-regular{
+    font-weight: var(--fw-regular);
+}
+.fw-medium{
+    font-weight: var(--fw-medium);
+}
+.fw-bold{
+    font-weight: var(--fw-Bold);
+}
+
+.fs-100{
+    font-size: var(--fs-100);
+}
+.fs-200{
+    font-size: var(--fs-200);
+}
+.fs-300{
+    font-size: var(--fs-300);
+}
+.fs-400{
+    font-size: var(--fs-400);
+}
+.fs-500{
+    font-size: var(--fs-500);
+}
+.fs-600{
+    font-size: var(--fs-600);
+}
+.fs-700{
+    font-size: var(--fs-700);
+}
+.fs-800{
+    font-size: var(--fs-800);
+}
+.fs-900{
+    font-size: var(--fs-900);
+}
+.fs-heading-nav {
+    font-size: var(--fs-primary-heading);
+    line-height: 1.1;
+}
+.fs-button{
+    font-size:  var(--fs-button);
+}
