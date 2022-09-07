@@ -55,6 +55,9 @@
 .text-primary-400 {
     color: var(--clr-primary-400)
 }
+.text-primary-200{
+    color: var(--clr-accent-400)
+}
 .text-primary-100 {
     color: var(--clr-primary-100)
 }
@@ -119,4 +122,20 @@
 }
 .fs-button{
     font-size:  var(--fs-button);
+}
+
+
+
+
+
+.top-footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
